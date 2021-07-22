@@ -4259,6 +4259,10 @@ fieldset:disabled .btn {
   text-decoration: none;
   white-space: nowrap;
 }
+/* custom class */
+.title-navbar-text {
+  font-style: italic;
+}
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -11335,11 +11339,13 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/phoenix_bird.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../assets/img/phoenix_bird.jpg") no-repeat scroll center center/cover;
+  /* background-image: url("../assets/img/phoenix_bird.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
