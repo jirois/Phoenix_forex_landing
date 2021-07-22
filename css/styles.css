@@ -4290,11 +4290,11 @@ fieldset:disabled .btn {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  /* padding: 0.25rem 0.75rem; */
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: none;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
@@ -4320,6 +4320,12 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+.lg-3 {
+  border: none;
+  background: transparent;
+  font-size: 1.7rem;
 }
 
 .navbar-nav-scroll {
