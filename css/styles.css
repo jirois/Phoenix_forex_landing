@@ -6236,11 +6236,9 @@ hr.divider-light {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   font-weight: 700;
-  color: #000;
-  background-color: #eee;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
