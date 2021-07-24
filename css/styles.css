@@ -11684,7 +11684,7 @@ header.masthead .masthead-heading {
   width: 14rem;
   height: 14rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 .team-member h4,
 .team-member .h4 {
